@@ -2,6 +2,9 @@
     "compilerOptions": {
         "target": "ES2019",
         "moduleResolution": "node",
-        "lib": ["ES2018", "DOM"]
+        "outDir": "dist",
+        "lib": ["DOM", "ES2020"],
+        "sourceMap": true,
+        "strictNullChecks": true
     }
 }
